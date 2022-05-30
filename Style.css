@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* Free shopping and return */
+.freeshopping i{
+    margin-left: 60px;
+}
+.freeshopping{
+    line-height: 1rem;
+}
+.freeshopping .firstext{
+    font-size: medium;
+}
+.freeshopping .sectext{
+    font-size: 15px;
+}
+.topcategoryheader{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(168, 146, 146);
+    position: relative;
+}
+.topcategoryheader::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+}
+.topcatbr{
+    border-right: 1px solid black;
+}
+.topcat img{
+    width: 120px;   
+}
+.topcat a{
+    color: black;
+}
+.topcat a:hover{
+    text-decoration: none;
+    color: black;
+}
+.newtonlgpic img{
+    width: 100%;
+}
+.newtonsmpic img{
+    width: 100%;
+}
+.newtonproduct img{
+    width: 300px;
+    height: 300px;
+}
